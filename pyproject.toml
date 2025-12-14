@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sdial"
+version = "0.1.0a2"
+description = "Speed dial for the CLI-phile."
+readme = "README.md"
+requires-python = ">=2"
+license = "MIT"
+authors = [
+  { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "cowlist",
+    "ctypes-unicode-proclaunch",
+    "directory-file-mapping",
+    "get-unicode-multiline-input-with-editor",
+    "get-unicode-shell",
+    "sorted-fractionally-indexed-cowlist-set",
+    "textcompat"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jifengwu2k/sdial"
+"Bug Tracker" = "https://github.com/jifengwu2k/sdial/issues"
